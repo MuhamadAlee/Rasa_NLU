@@ -1,0 +1,61 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - hello_hi
+  - designation
+  - age
+  - hobby
+  - child
+  - cricket
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am Muhammad Alee"
+
+  utter_hello_hi:
+  - text: "I am good"
+
+  utter_designation:
+  - text: "I am a Custom Support Person"
+
+  utter_age:
+  - text: "I am 20 years old now."
+
+
+  utter_hobby:
+  - text: "I love to Play Cricket"
+
+  utter_child:
+  - text: "I am Single"
+
+  utter_cricket:
+  - text: "I love Babar Azam"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
